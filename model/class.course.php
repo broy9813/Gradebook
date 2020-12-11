@@ -31,7 +31,8 @@ class Gradebook {
         $sql = "SELECT name, id, prof_fname, prof_lname  " .
                 "FROM professor, courses " .
                 "WHERE professor.prof_id = courses.prof_id ".
-                "AND courses.prof_id = $prof_id" ;
+                "AND courses.prof_id = $prof_id ". 
+                "AND name LIKE '$courseName'";
         
         // execute select statement
         // assign return value to variable

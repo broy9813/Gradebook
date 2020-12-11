@@ -70,23 +70,23 @@ if (!isset($_SESSION['userid']) || ($_SESSION['userid'] == 0)) {
                 </div>
                 <div class="aside">
                     <p>                      
-                        Instructors have two ways in which they may search
-                        for assessments.
+                        Professors have two ways in which they may search
+                        for courses they are teaching.
                     </p> 
                     <p>                      
                         They may simply push the Search button. In which case,
-                        all of their assessments will be displayed in
+                        all of their courses will be displayed in
                         the table below the Search button.
                     </p>
                     <p>                      
                         They may also
-                        input the name of an assessment and push Search.  In which
-                        case, only those assessments that have a matching name 
+                        input the name of an Course and push Search.  In which
+                        case, only those courses that have a matching name 
                         will be displayed in the table below the Search button.
                     </p>
                     <p>                      
-                        Each row in the table displays the name of an assessment, 
-                        the date the assessment was submitted and the assessment score.
+                        Each row in the table displays the name of course, 
+                        the CourseId the Professor Who is teaching that specific course.
                     </p> 
                 </div>
             </div>
